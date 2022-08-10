@@ -21,10 +21,8 @@ export default function addBook(title, author) {
     removeBtn.addEventListener('click', () => {
       booksArr.splice(index, 1);
       bookItem.remove();
-      booksStorage();
     });
   });
-  booksStorage();
 
   booksContainer.appendChild(bookItem);
 }

@@ -1,6 +1,5 @@
-import retrieveShelve from './modules/retrieveShelve.js';
 import addBook from './modules/addBook.js';
-import { DateTime } from './modules/luxon.min.js';
+import { DateTime } from './modules/luxon.js';
 
 const booksForm = document.querySelector('.books-form');
 const bookTitle = document.getElementById('title');
