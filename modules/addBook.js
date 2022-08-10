@@ -2,6 +2,10 @@ const booksContainer = document.querySelector('#books-container');
 
 const booksArr = [];
 
+function booksStorage() {
+  localStorage.setItem('books', JSON.stringify(booksArr));
+}
+
 export default function addBook(title, author) {
   const newBook = {
     title,
@@ -21,8 +25,10 @@ export default function addBook(title, author) {
     removeBtn.addEventListener('click', () => {
       booksArr.splice(index, 1);
       bookItem.remove();
+      booksStorage();
     });
   });
+  booksStorage();
 
   booksContainer.appendChild(bookItem);
 }

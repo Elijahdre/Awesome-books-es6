@@ -25,9 +25,10 @@ header {
 .date {
   color: black;
   bottom: -4rem;
-  right: 1rem;
   font-size: 20px;
   font-weight: 300;
+  margin-left: 55rem;
+  margin-top: 10px;
 }
 
 a:hover,

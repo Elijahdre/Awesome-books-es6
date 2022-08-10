@@ -51,3 +51,14 @@ navList3.addEventListener('click', (e) => {
   sectionTwo.classList.add('hide');
   sectionThree.classList.remove('hide');
 });
+
+function retrieveShelve() {
+  const books = JSON.parse(localStorage.getItem('books'));
+  if (books) {
+    books.forEach((book) => {
+      addBook(book.title, book.author);
+    });
+  }
+}
+
+retrieveShelve();
