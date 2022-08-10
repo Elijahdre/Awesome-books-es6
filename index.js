@@ -1,16 +1,15 @@
-import retrieveShelve from "./modules/retrieveShelve.js"
-import addBook from "./modules/addBook.js"
-
-retrieveShelve();
+import retrieveShelve from './modules/retrieveShelve.js';
+import addBook from './modules/addBook.js';
+import { DateTime } from './modules/luxon.min.js';
 
 const booksForm = document.querySelector('.books-form');
 const bookTitle = document.getElementById('title');
 const bookAuthor = document.getElementById('author');
 
-
-
-
-
+window.onload = () => {
+  const date = document.getElementById('date');
+  date.innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_HUGE);
+};
 
 // submit button event
 booksForm.addEventListener('submit', (e) => {
@@ -22,8 +21,6 @@ booksForm.addEventListener('submit', (e) => {
     bookAuthor.value = '';
   }
 });
-
-
 
 // buttons
 const navList1 = document.getElementById('list');
@@ -40,7 +37,6 @@ navList1.addEventListener('click', (e) => {
   sectionOne.classList.remove('hide');
   sectionTwo.classList.add('hide');
   sectionThree.classList.add('hide');
-  
 });
 
 navList2.addEventListener('click', (e) => {

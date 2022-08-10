@@ -36,13 +36,13 @@ However, there are some project requisites required for this project to run prop
 This project has been  finished and deployed.
 
 ## Screenshoots
-![Screenshot (77)]()
-![Screenshot (78)]()
-![Screenshot (79)]()
+![Screenshot (77)](./img/app-screenshot1.png)
+![Screenshot (78)](./img/app-screenshot2.png)
+![Screenshot (79)](./img/app-screenshot3.png)
 
 
 ## Live Demo link
- 
+  https://elijahdre.github.io/Awesome-books-es6/
 
 ## Issues
 
@@ -50,7 +50,7 @@ Up to now, there are no issues with it.
 
 Here is the link to the Issues tab:
 
-Feel free to check the [issues page.](https://github.com/shyusu4/Awesome-Books/issues)
+Feel free to check the [issues page.](https://github.com/Elijahdre/Awesome-books-es6/issues)
 
 ## Author
 
