@@ -56,8 +56,10 @@ Feel free to check the [issues page.](https://github.com/Elijahdre/Awesome-books
 
 👤 Elijah Andre
 
-- GitHub: [@elijahdre](https://github.com/Elijahdre)
+- GitHub: [Elijahdre](https://github.com/Elijahdre)
 - LinkedIn: [Elijah Odjegba](https://www.linkedin.com/in/elijah-odjegba-862708179/)
+- Twitter: [@kingglijah](https://twitter.com/kingglijah)
+
 
 
 ## Show your support
